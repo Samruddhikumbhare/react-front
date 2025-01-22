@@ -14,7 +14,7 @@ class Performance extends Component {
     if (params.userid) {
       EmployeeService.getEmployees()
         .then(({data}) => {
-          const targetEmployee = data.find(u => u.id === +params.userid)
+        
           //this.setState({targetEmployee})
         })
         //.then (alert(this.state.targetEmployee.id))
