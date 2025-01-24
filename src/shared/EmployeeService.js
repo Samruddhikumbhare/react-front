@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const api_base = 'http://13.229.65.4:3001'
+const api_base = 'http://13.201.8.195:3001'
 
 export function getEmployees () {
   return axios.get(api_base + '/employees')
